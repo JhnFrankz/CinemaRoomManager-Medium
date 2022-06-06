@@ -77,18 +77,9 @@ files:
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/133/stages/709/implement#comment
-status: Failed
+feedback_link: https://hyperskill.org/learn/step/11105#comment
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #1
-
-    Expected 9 lines in the output!
-
-    Please find below the output of your program during this failed test.
-
-    ---
-
-    Enter the number of rows:
-  time: Mon, 06 Jun 2022 01:46:56 UTC
+  message: Congratulations!
+  time: Mon, 06 Jun 2022 13:43:38 UTC
 record: 1
