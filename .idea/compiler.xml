@@ -9,6 +9,29 @@
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task-build-test-results.main" target="11" />
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task-build-tmp.main" target="11" />
       <module name="Cinema_Room_Manager.Cinema_Room_Manager-task.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Get_first_and_last_elements.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Varargs.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Arrays_as_parameters-Varargs_method_invocation.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Comments-Incorrect_comments.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Comments-Printing_only_the_longest_line.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Comments-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Declaring_a_method-Division.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Declaring_a_method-Greatest_common_divisor.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Declaring_a_method-Syntactically_correct_declarations.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Declaring_a_method-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Calculator_with_four_methods.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Create_a_full_name.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Decompose_a_math_function.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Create_cube.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Find_the_corners.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Maximum_element_in_a_matrix.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Practical_applications.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Rotate_a_rectangle_array.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Printing_data-From_0_to_4.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Printing_data-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Direction.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Harry_Potter.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Removing_breaks.main" target="11" />
