@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Cinema {
 
     private static final Scanner scanner = new Scanner(System.in);
+    private static int totalNumberOfTickets = 0;
+    private static int numberPurchasedTickets = 0;
+    private static int currentIncome = 0;
+    private static int totalIncome = 0;
 
     public static void main(String[] args) {
 
@@ -17,10 +21,16 @@ public class Cinema {
         System.out.println("Enter the number of seats in each row:");
         int numberEachRow = Integer.parseInt(scanner.nextLine());
         char[][] x = new char[numberRow][numberEachRow];
+        totalNumberOfTickets = numberRow * numberEachRow;
 
         for (int i = 0; i < numberRow; i++) {
             for (int j = 0; j < numberEachRow; j++) {
                 x[i][j] = 'S';
+                if (totalNumberOfTickets > 60) {
+                    totalIncome += i < numberRow / 2 ? 10 : 8;
+                } else {
+                    totalIncome += 10;
+                }
             }
         }
 
@@ -30,6 +40,7 @@ public class Cinema {
     private static void chooseOption(char[][] x) {
         System.out.println("\n1. Show the seats\n" +
                 "2. Buy a ticket\n" +
+                "3. Statistics\n" +
                 "0. Exit");
         int option = Integer.parseInt(scanner.nextLine());
 
@@ -44,6 +55,9 @@ public class Cinema {
                 buyTicket(x);
                 chooseOption(x);
                 break;
+            case 3:
+                showStadistics(x);
+                chooseOption(x);
         }
     }
 
@@ -65,6 +79,16 @@ public class Cinema {
 
     }
 
+    public static void showStadistics(char[][] x) {
+        double percent = (double) numberPurchasedTickets / totalNumberOfTickets * 100;
+
+        System.out.printf("Number of purchased tickets: %d\n" +
+                "Percentage: %.2f%%\n" +
+                "Current income: $%d\n" +
+                "Total income: $%d\n", numberPurchasedTickets,
+                percent, currentIncome, totalIncome);
+    }
+
     private static void buyTicket(char[][] x) {
         System.out.println("\nEnter a row number:");
         int seatRow = Integer.parseInt(scanner.nextLine());
@@ -75,18 +99,29 @@ public class Cinema {
             return;
         }*/
 
-        int priceTicket = 10;
+        if (seatRow > x.length || seatInRow > x[0].length ||
+                seatRow < 1 || seatInRow < 1) {
+            System.out.println("Wrong input!");
+            buyTicket(x);
+        } else if (x[seatRow - 1][seatInRow - 1] == 'B') {
+            System.out.println("That ticket has already been purchased!");
+            buyTicket(x);
+        } else {
+            int priceTicket = 10;
 
-        if (x.length * x[0].length > 60) {
-            boolean isInFront = seatRow <= x.length / 2;
+            if (x.length * x[0].length > 60) {
+                boolean isInFront = seatRow <= x.length / 2;
 
-            if (!isInFront) {
-                priceTicket = 8;
+                if (!isInFront) {
+                    priceTicket = 8;
+                }
             }
+
+            x[seatRow - 1][seatInRow - 1] = 'B';
+
+            System.out.printf("Ticket price: $%d\n", priceTicket);
+            currentIncome += priceTicket;
+            numberPurchasedTickets++;
         }
-
-        x[seatRow - 1][seatInRow - 1] = 'B';
-
-        System.out.printf("Ticket price: $%d\n", priceTicket);
     }
 }

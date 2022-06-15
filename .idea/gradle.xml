@@ -33,14 +33,24 @@
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Create a full name" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Decompose a math function" />
             <option value="$PROJECT_DIR$/Topics/Functional decomposition/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Select loops" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/The longest ascending sequence" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/The sum of array elements" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Theory" />
+            <option value="$PROJECT_DIR$/Topics/Iterating over arrays/Triples" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Create cube" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Find the corners" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Maximum element in a matrix" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Practical applications" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Rotate a rectangle array" />
             <option value="$PROJECT_DIR$/Topics/Multidimensional array/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Avoid NPE" />
+            <option value="$PROJECT_DIR$/Topics/NPE/Theory" />
+            <option value="$PROJECT_DIR$/Topics/NPE/When NPE cannot occur" />
             <option value="$PROJECT_DIR$/Topics/Printing data/From 0 to 4" />
             <option value="$PROJECT_DIR$/Topics/Printing data/Theory" />
+            <option value="$PROJECT_DIR$/Topics/String/Extracting a substring" />
+            <option value="$PROJECT_DIR$/Topics/String/Theory" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Direction" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Harry Potter" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Removing breaks" />
@@ -48,6 +58,8 @@
             <option value="$PROJECT_DIR$/Topics/Switch statement/Shape" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Test learners" />
             <option value="$PROJECT_DIR$/Topics/Switch statement/Theory" />
+            <option value="$PROJECT_DIR$/Topics/What is an exception/Avoid division by zero" />
+            <option value="$PROJECT_DIR$/Topics/What is an exception/Theory" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

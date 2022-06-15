@@ -24,14 +24,24 @@
       <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Create_a_full_name.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Decompose_a_math_function.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Functional_decomposition-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Select_loops.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-The_longest_ascending_sequence.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-The_sum_of_array_elements.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-Iterating_over_arrays-Triples.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Create_cube.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Find_the_corners.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Maximum_element_in_a_matrix.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Practical_applications.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Rotate_a_rectangle_array.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Multidimensional_array-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-NPE-Avoid_NPE.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-NPE-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-NPE-When_NPE_cannot_occur.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Printing_data-From_0_to_4.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Printing_data-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-String-Extracting_a_substring.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-String-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Direction.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Harry_Potter.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Removing_breaks.main" target="11" />
@@ -39,6 +49,8 @@
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Shape.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Test_learners.main" target="11" />
       <module name="Cinema_Room_Manager.Topics-Switch_statement-Theory.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-What_is_an_exception-Avoid_division_by_zero.main" target="11" />
+      <module name="Cinema_Room_Manager.Topics-What_is_an_exception-Theory.main" target="11" />
       <module name="Cinema_Room_Manager.util.main" target="11" />
     </bytecodeTargetLevel>
   </component>
